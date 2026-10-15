@@ -58,28 +58,25 @@
 ### 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=megamind294&theme=tokyonight&no-bg=true&margin-w=5&margin-h=5" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=megamind294&theme=radical&no-bg=true" alt="GitHub Trophies" />
 </div>
 
 ---
 
 ### 🧊 3D Contribution Activity & Snake Game
 
-<!-- Contribution Snake Animation -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 </div>
 
 ---
 
-### ✍️ Latest Medium Articles
+### ✍️ Articles & Writings
 
 <div align="center">
-  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=5&username=megamind294&theme=dark" alt="Medium Posts" />
+  <a href="https://medium.com/@megamind294" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-%2312100E.svg?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge" />
+  </a>
 </div>
 
 ---
@@ -100,12 +97,3 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="50" height="40" alt="youtube logo" />
   </a>
 </div>
-
-<style>
-  img {
-    transition: transform 0.3s ease-in-out;
-  }
-  img:hover {
-    transform: scale(1.08);
-  }
-</style>
