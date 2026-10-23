@@ -1,31 +1,73 @@
-name: Generate Snake
+name: Generate Profile Visuals
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Every 12 hours
+    - cron: "23 2 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/snake.yml"
+      - ".github/scripts/capture-portfolio.cjs"
+      - "readme.md"
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Snake SVG
+      - name: Generate light and dark snake SVGs
         uses: Platane/snk@v3
-        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake to Output Branch
+      - name: Generate 3D contribution skylines
+        uses: yoshi389111/github-profile-3d-contrib@e235d118909be71eb7edb05482a3de4e76156df3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect light and dark skylines
+        run: |
+          cp profile-3d-contrib/profile-green-animate.svg dist/skyline-light.svg
+          cp profile-3d-contrib/profile-night-rainbow.svg dist/skyline-dark.svg
+
+      - name: Set up Node.js for portfolio capture
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install screenshot browser
+        run: |
+          npm install --no-save --package-lock=false playwright@1.64.1
+          npx playwright install --with-deps chromium
+
+      - name: Capture portfolio preview
+        run: node .github/scripts/capture-portfolio.cjs
+
+      - name: Verify every profile asset exists
+        run: |
+          test -s dist/portfolio-preview.png
+          test -s dist/skyline-light.svg
+          test -s dist/skyline-dark.svg
+          test -s dist/github-contribution-grid-snake.svg
+          test -s dist/github-contribution-grid-snake-dark.svg
+
+      - name: Publish profile images to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
