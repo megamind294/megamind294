@@ -26,14 +26,23 @@
 
 ## Task 1: Generate visuals
 
-- [ ] Extend .github/workflows/snake.yml with daily skyline, two snake variants, and portfolio screenshot.
-- [ ] Add .github/scripts/capture-portfolio.cjs to check the HTTP response, wait for fonts, and save the screenshot.
-- [ ] Validate workflow structure and run the workflow after merge.
+- [x] Extend .github/workflows/snake.yml with daily skyline, two snake variants, and portfolio screenshot.
+- [x] Add .github/scripts/capture-portfolio.cjs to check the HTTP response, wait for fonts, and save the screenshot.
+- [x] Validate workflow structure and run the workflow after merge.
 
 ## Task 2: Display and verify
 
-- [ ] Add linked portfolio preview and theme-aware skyline/snake to readme.md.
-- [ ] Review the diff, merge the approved change, and confirm workflow success.
-- [ ] Confirm output paths exist and visually inspect the profile.
+- [x] Add linked portfolio preview and theme-aware skyline/snake to readme.md.
+- [x] Review the diff, merge the approved change, and confirm workflow success.
+- [x] Confirm output paths exist, validate the four SVGs, and visually inspect the portfolio screenshot.
 
 No persistent test suite is added for this small profile/configuration change. Verify the actual generated assets.
+
+## Verification record
+
+- Independent review: no material findings.
+- First run exposed a root-owned output directory created by the snake container. Fixed by creating dist with runner ownership before the container starts.
+- Successful full workflow: https://github.com/megamind294/megamind294/actions/runs/40031837628
+- All five assets published; portfolio screenshot is 1440x1000 and visually verified. Four SVGs parse successfully.
+- The embedded browser was unavailable during verification; the actual generated screenshot was inspected directly instead.
+- No new secrets or paid services used. The user approved implementation and publishing in this session.
