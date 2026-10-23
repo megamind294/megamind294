@@ -27,6 +27,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Prepare writable output directory
+        run: mkdir -p dist
+
       - name: Generate light and dark snake SVGs
         uses: Platane/snk@v3
         with:
