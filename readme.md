@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30&height=180&section=header&text=Hi%20there!%20👋%20I'm%20Megamind&fontSize=35&fontAlign=50&fontAlignY=50&desc=Frontend%20&%20Mobile%20Engineer%20|%20React%20•%20Flutter%20•%20Swift&descSize=15&descAlign=50&descAlignY=72&animation=fadeIn" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30&height=180&section=header&text=Hi%20there!%20👋%20I'm%20Megamind&fontSize=35&fontAlign=50&fontAlignY=50&desc=Frontend%20%26%20Mobile%20Engineer%20|%20React%20•%20Flutter%20•%20Swift&descSize=15&descAlign=50&descAlignY=72&animation=fadeIn" alt="Header Banner" />
 </div>
 
 <h3 align="center">
