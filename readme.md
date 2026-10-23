@@ -1,12 +1,14 @@
 <div align="center">
   <a href="https://rinklesharma.pl/">
-    <img src="https://raw.githubusercontent.com/megamind294/megamind294/main/assets/profile-header.svg" width="100%" alt="Rinkle Sharma — Frontend and Mobile Engineer" />
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/main/assets/profile-header.svg" width="100%" alt="Rinkle Sharma — Web Developer, App Developer and AI/ML" />
   </a>
 </div>
 
 <h3 align="center">
-  🚀 Crafting high-performance web & mobile experiences with modern tech.
+  🚀 Web Developer · App Developer · AI/ML
 </h3>
+
+<p align="center">Building web applications, mobile apps, and AI/ML solutions.</p>
 
 ---
 
