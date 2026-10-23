@@ -8,6 +8,17 @@
 
 ---
 
+### 🌐 Explore My Portfolio
+
+<div align="center">
+  <a href="https://rinklesharma.pl/">
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/output/portfolio-preview.png" width="100%" alt="Preview of Rinkle Sharma's portfolio — click to explore rinklesharma.pl" />
+  </a>
+  <p><a href="https://rinklesharma.pl/"><strong>Explore rinklesharma.pl ↗</strong></a></p>
+</div>
+
+---
+
 ### 💻 Tech Stack & Skills
 
 <div align="center">
@@ -63,10 +74,25 @@
 
 ---
 
-### 🧊 3D Contribution Activity & Snake Game
+### 🧊 My Contribution Skyline
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/megamind294/megamind294/output/skyline-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/megamind294/megamind294/output/skyline-light.svg" />
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/output/skyline-light.svg" width="100%" alt="3D skyline of my GitHub contributions over the past year" />
+  </picture>
+  <p>Every contribution builds the skyline. Updated daily.</p>
+</div>
+
+### 🐍 Watch My Contributions Come Alive
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake moving through my GitHub contribution calendar" />
+  </picture>
 </div>
 
 ---
