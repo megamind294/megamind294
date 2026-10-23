@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="104" viewBox="0 0 460 104" role="img" aria-labelledby="title">
+<title id="title">Explore rinklesharma.pl</title>
+<defs><linearGradient id="face" x2="1" y2="1"><stop stop-color="#adffe9"/><stop offset="1" stop-color="#53d8c9"/></linearGradient></defs>
+<rect x="14" y="29" width="432" height="65" rx="16" fill="#02070d"/>
+<rect x="14" y="21" width="432" height="65" rx="16" fill="#147971"/>
+<rect x="14" y="10" width="432" height="65" rx="16" fill="url(#face)" stroke="#b6fff0"/>
+<path d="M34 13H426" stroke="#e2fff7" stroke-width="2" opacity=".7"/>
+<circle cx="49" cy="42" r="14" fill="none" stroke="#093c40" stroke-width="2"/>
+<ellipse cx="49" cy="42" rx="6" ry="14" fill="none" stroke="#093c40" stroke-width="1.5"/>
+<path d="M35 42H63" stroke="#093c40" stroke-width="1.5"/>
+<text x="86" y="50" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#082e36">Explore my portfolio</text>
+<path d="M399 50 414 35M401 35H414V48" fill="none" stroke="#093c40" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
