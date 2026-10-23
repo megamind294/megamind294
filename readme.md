@@ -17,7 +17,7 @@
     <img src="https://raw.githubusercontent.com/megamind294/megamind294/output/portfolio-preview.png" width="100%" alt="Preview of Rinkle Sharma's portfolio — click to explore rinklesharma.pl" />
   </a>
   <a href="https://rinklesharma.pl/">
-    <img src="https://raw.githubusercontent.com/megamind294/megamind294/main/assets/portfolio-button.svg" width="380" alt="Explore my portfolio at rinklesharma.pl" />
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/main/assets/portfolio-button.svg" width="240" alt="Explore my portfolio at rinklesharma.pl" />
   </a>
 </div>
 
