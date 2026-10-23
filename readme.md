@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30&height=180&section=header&text=Hi%20there!%20👋%20I'm%20Megamind&fontSize=35&fontAlign=50&fontAlignY=50&desc=Frontend%20%26%20Mobile%20Engineer%20|%20React%20•%20Flutter%20•%20Swift&descSize=15&descAlign=50&descAlignY=72&animation=fadeIn" alt="Header Banner" />
+  <a href="https://rinklesharma.pl/">
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/main/assets/profile-header.svg" width="100%" alt="Rinkle Sharma — Frontend and Mobile Engineer" />
+  </a>
 </div>
 
 <h3 align="center">
@@ -14,7 +16,9 @@
   <a href="https://rinklesharma.pl/">
     <img src="https://raw.githubusercontent.com/megamind294/megamind294/output/portfolio-preview.png" width="100%" alt="Preview of Rinkle Sharma's portfolio — click to explore rinklesharma.pl" />
   </a>
-  <p><a href="https://rinklesharma.pl/"><strong>Explore rinklesharma.pl ↗</strong></a></p>
+  <a href="https://rinklesharma.pl/">
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/main/assets/portfolio-button.svg" width="380" alt="Explore my portfolio at rinklesharma.pl" />
+  </a>
 </div>
 
 ---
@@ -66,10 +70,13 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=megamind294&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
-### 🏆 GitHub Trophies
+### 🏆 GitHub Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=megamind294&theme=radical&no-bg=true" alt="GitHub Trophies" />
+  <a href="https://github.com/megamind294?tab=achievements">
+    <img src="https://raw.githubusercontent.com/megamind294/megamind294/main/assets/achievements.svg" width="100%" alt="Earned GitHub achievements: Pull Shark bronze, Quickdraw, and YOLO" />
+  </a>
+  <p><a href="https://github.com/megamind294?tab=achievements">View my earned GitHub achievements ↗</a></p>
 </div>
 
 ---

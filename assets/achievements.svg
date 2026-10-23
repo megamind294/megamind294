@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="204" viewBox="0 0 1000 204" role="img" aria-labelledby="title desc">
+<title id="title">GitHub achievements: Pull Shark bronze, Quickdraw, and YOLO</title>
+<desc id="desc">Three raised cards celebrating achievements earned by megamind294.</desc>
+<defs><linearGradient id="card" x2="1" y2="1"><stop stop-color="#1c2d38"/><stop offset="1" stop-color="#101820"/></linearGradient></defs>
+<g transform="translate(12 12)">
+<rect y="15" width="308" height="166" rx="18" fill="#03080e"/>
+<rect y="9" width="308" height="162" rx="18" fill="#1a333e"/>
+<rect width="308" height="160" rx="18" fill="url(#card)" stroke="#35515e"/>
+<path d="M20 1H288" stroke="#f6c486" stroke-width="2"/>
+<circle cx="47" cy="47" r="23" fill="#f6c486" fill-opacity=".12"/>
+<path d="M36 32H58V44Q58 54 47 54Q36 54 36 44ZM36 35H29V40Q29 48 37 48M58 35H65V40Q65 48 57 48M47 55V63M38 65H56" fill="none" stroke="#f6c486" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="25" y="105" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#eef7fb">Pull Shark</text>
+<text x="25" y="134" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.7" fill="#f6c486">BRONZE  /  ×2</text>
+</g>
+<g transform="translate(346 12)">
+<rect y="15" width="308" height="166" rx="18" fill="#03080e"/>
+<rect y="9" width="308" height="162" rx="18" fill="#1a333e"/>
+<rect width="308" height="160" rx="18" fill="url(#card)" stroke="#35515e"/>
+<path d="M20 1H288" stroke="#73f8dc" stroke-width="2"/>
+<circle cx="47" cy="47" r="23" fill="#73f8dc" fill-opacity=".12"/>
+<path d="M51 29 34 49H46L42 66 60 43H48Z" fill="#73f8dc"/>
+<text x="25" y="105" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#eef7fb">Quickdraw</text>
+<text x="25" y="134" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.7" fill="#73f8dc">QUICK TO RESOLVE</text>
+</g>
+<g transform="translate(680 12)">
+<rect y="15" width="308" height="166" rx="18" fill="#03080e"/>
+<rect y="9" width="308" height="162" rx="18" fill="#1a333e"/>
+<rect width="308" height="160" rx="18" fill="url(#card)" stroke="#35515e"/>
+<path d="M20 1H288" stroke="#b2a3ff" stroke-width="2"/>
+<circle cx="47" cy="47" r="23" fill="#b2a3ff" fill-opacity=".12"/>
+<path d="M33 59 59 33M40 33H59V52" stroke="#b2a3ff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="25" y="105" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#eef7fb">YOLO</text>
+<text x="25" y="134" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.7" fill="#b2a3ff">MERGED WITHOUT REVIEW</text>
+</g>
+</svg>
